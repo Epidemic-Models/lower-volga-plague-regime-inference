@@ -17,7 +17,7 @@ that confirms the diagnosis and identifies which dispose_rate value
 lets the model behave sensibly.
 
 Required:
-    plague_double_sigmoid_model.py in the vetlyanka/ folder.
+    plague_double_sigmoid_model.py in vetlyanka/src/ (found automatically).
 """
 
 import numpy as np
@@ -35,7 +35,14 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "diagnostics")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-VETLYANKA_DIR = "/Users/bornalid/PycharmProjects/lower-volga-plague-regime-inference/vetlyanka "
+# Find the repository root (the folder that contains vetlyanka/src) by walking up
+# from this script, so no computer-specific path is needed.
+_REPO = os.path.dirname(os.path.abspath(__file__))
+while not os.path.isdir(os.path.join(_REPO, "vetlyanka", "src")):
+    if os.path.dirname(_REPO) == _REPO:
+        raise FileNotFoundError("Could not find vetlyanka/src above this script.")
+    _REPO = os.path.dirname(_REPO)
+VETLYANKA_DIR = os.path.join(_REPO, "vetlyanka", "src")   # shared model files live here
 sys.path.insert(0, VETLYANKA_DIR)
 
 from plague_double_sigmoid_model import plague_model

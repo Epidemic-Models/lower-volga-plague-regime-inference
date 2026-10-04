@@ -17,7 +17,7 @@ crossover is genuine, not an artifact.
 
 Required:
     plague_single_sigmoid_model.py and plague_double_sigmoid_model.py in
-    the vetlyanka/ folder (imported via an explicit path below).
+    vetlyanka/src/ (found automatically, see below).
 """
 
 import numpy as np
@@ -29,7 +29,14 @@ from scipy.stats import qmc
 import os
 import sys
 
-VETLYANKA_DIR = "/Users/bornalid/PycharmProjects/lower-volga-plague-regime-inference/vetlyanka "
+# Find the repository root (the folder that contains vetlyanka/src) by walking up
+# from this script, so no computer-specific path is needed.
+_REPO = os.path.dirname(os.path.abspath(__file__))
+while not os.path.isdir(os.path.join(_REPO, "vetlyanka", "src")):
+    if os.path.dirname(_REPO) == _REPO:
+        raise FileNotFoundError("Could not find vetlyanka/src above this script.")
+    _REPO = os.path.dirname(_REPO)
+VETLYANKA_DIR = os.path.join(_REPO, "vetlyanka", "src")   # shared model files live here
 sys.path.insert(0, VETLYANKA_DIR)
 
 from plague_single_sigmoid_model import plague_model as plague_model_single
