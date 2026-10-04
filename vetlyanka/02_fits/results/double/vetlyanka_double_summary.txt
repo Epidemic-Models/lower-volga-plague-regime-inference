@@ -1,0 +1,5 @@
+SSE=348.790207
+k=13
+alignment=t=1..22
+samples=parameter_samples_400000.csv
+TOP_K=20

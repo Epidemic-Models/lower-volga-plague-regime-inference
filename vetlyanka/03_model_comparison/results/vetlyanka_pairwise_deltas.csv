@@ -1,0 +1,21 @@
+basis,comparison,dAIC,dAICc,dBIC,note
+cumulative,Single minus Double,17.02677813363914,-8.47322186636086,13.753650773564189,positive favours Double
+cumulative,Single-frozen minus Double-frozen,13.334600316291983,-1.9884766067849426,10.061472956217045,positive favours Double-frozen
+cumulative,Null minus Single,89.95419372414833,84.95419372414833,88.86315127079001,positive favours Single
+cumulative,Null minus Double,106.98097185778747,76.48097185778747,102.6168020443542,positive favours Double
+cumulative,Double minus Double-frozen,2.3458486894444377,21.445848689444432,4.527933596161077,positive favours Double-frozen
+cumulative,Single minus Single-frozen,6.038026506791596,14.961103429868515,8.22011141350822,positive favours Single-frozen
+cumulative,Single minus Double-frozen,19.37262682308358,12.972626823083573,18.281584369725266,positive favours Double-frozen
+cumulative,Double minus Single-frozen,-10.988751626847545,23.434325296229375,-5.533539360055968,positive favours Single-frozen
+cumulative,Null minus Double-frozen,109.3268205472319,97.9268205472319,107.14473564051528,positive favours Double-frozen
+cumulative,Null minus Single-frozen,95.99222023093992,99.91529715401684,97.08326268429823,positive favours Single-frozen
+incremental,Single minus Double,14.109902035830572,-11.390097964169428,10.83677467575562,positive favours Double
+incremental,Single-frozen minus Double-frozen,15.67080734223211,0.34773041915518377,12.397679982157157,positive favours Double-frozen
+incremental,Null minus Single,63.351214576199425,58.351214576199425,62.26017212284111,positive favours Single
+incremental,Null minus Double,77.46111661203,46.96111661203,73.09694679859673,positive favours Double
+incremental,Double minus Double-frozen,6.393211836182957,25.49321183618295,8.575296742899582,positive favours Double-frozen
+incremental,Single minus Single-frozen,4.83230652978142,13.75538345285834,7.014391436498045,positive favours Single-frozen
+incremental,Single minus Double-frozen,20.50311387201353,14.103113872013523,19.412071418655202,positive favours Double-frozen
+incremental,Double minus Single-frozen,-9.277595506049153,25.145481417027767,-3.822383239257576,positive favours Single-frozen
+incremental,Null minus Double-frozen,83.85432844821295,72.45432844821295,81.67224354149631,positive favours Double-frozen
+incremental,Null minus Single-frozen,68.18352110598084,72.10659802905776,69.27456355933916,positive favours Single-frozen

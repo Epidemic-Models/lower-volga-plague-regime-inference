@@ -1,0 +1,4 @@
+mu1=1.167000 mu2=14.000000 x0=15.720778 c=0.205984
+mu(0)=1.651472 mean_mu=5.407779
+IWM_fitted=38.375 IWM_initial=57.253 IWM_mean=51.109
+"In Vetlyanka, IWM increased from 38.4% in the fitted model to 57.3% under initial-value mu and 51.1% under mean-value mu."

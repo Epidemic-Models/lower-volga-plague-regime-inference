@@ -1,0 +1,25 @@
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Parameter ranges and best-fit values for the standalone Vetlyanka analysis across all five models. This table provides the full parameter estimates underlying Table 1 in the main text. $^{*}$Parameter fixed by model specification rather than estimated. $^{\dagger}$In the constant-$\gamma,\mu$ models, $\gamma_B$ and $\gamma_P$ are replaced by a single constant recovery rate, and $\mu_B$ and $\mu_P$ by a single constant mortality rate. Each constant parameter was fitted over the union of the corresponding individual parameter ranges. Consequently, its fitted value may fall outside the narrower range displayed for either individual row while remaining within the bounds used for optimization.}
+    \begin{tabular}{llccccc}
+        \toprule
+        \textbf{Parameter} & \textbf{Range} & \textbf{Null} & \textbf{Single} & \textbf{Double} & \textbf{Double, const.} & \textbf{Single, const.} \\
+        \midrule
+        $\beta_B$ & [0.001, 0.2] & 0.18 & 0.20 & 0.20 & 0.13 & 0.20 \\
+        $\beta_P$ & [5, 25] & 5.00 & 5.23 & 15.55 & 15.94 & 5.16 \\
+        $x_0$ & [5, 20] & 20.00 & 8.08 & 15.72 & 16.21 & 7.01 \\
+        $x_1$ & [14, 20] & -- & -- & 18.42 & 18.42 & -- \\
+        $\kappa_{\mathrm{inc}}$ & [0.02, 2] & 0.020 & 2.00 & 0.21 & 0.11 & 2.00 \\
+        $\kappa_{\mathrm{dec}}$ & [0.8, 4] & -- & -- & 4.00 & 3.99 & -- \\
+        $\gamma_B$ & [0.35, 0.7] & 0.70 & 0.35 & 0.35 & 1.40$^{\dagger}$ & 1.40$^{\dagger}$ \\
+        $\gamma_P$ & [1.167, 1.4] & 1.40 & 1.40 & 1.18 & 1.40$^{\dagger}$ & 1.40$^{\dagger}$ \\
+        $\mu_B$ & [1.167, 1.4] & 1.17 & 1.40 & 1.17 & 6.21$^{\dagger}$ & 1.17$^{\dagger}$ \\
+        $\mu_P$ & [1.75, 14] & 1.75 & 1.75 & 14.00 & 6.21$^{\dagger}$ & 1.17$^{\dagger}$ \\
+        $\tau_P$ & [0.5, 20] & -- & 3.40$^{*}$ & 3.40 & 3.15 & 3.15$^{*}$ \\
+        $\lambda_P$ & [0.005, 0.2] & -- & 0.017 & 0.015 & 0.013 & 0.018 \\
+        $\xi$ & [2, 7.5] & 7.50 & 7.50 & 7.50 & 7.48 & 7.50 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:vetlyanka_ranges_best_fit_days_five_models}
+\end{table}

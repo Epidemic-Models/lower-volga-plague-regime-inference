@@ -1,0 +1,13 @@
+{
+  "samples_file": "parameter_samples_400000.csv",
+  "num_samples": 400000,
+  "legacy_alignment": false,
+  "x0_x1_min_gap": 1.0,
+  "T_perceive_fixed_single": 3.3973320439618644,
+  "T_perceive_source": "02_fits/results/double/vetlyanka_polished_fit.csv",
+  "widened_x1_appended": true,
+  "num_widened_samples": 100000,
+  "widened_lhs_seed": 43,
+  "widened_x1_upper": 40.0,
+  "double_library_rows": 500000
+}

@@ -1,0 +1,17 @@
+\begin{table}[t]
+    \centering
+    \small
+    \caption{Negative-control recovery experiment using synthetic single-regime data. Five datasets were generated from the fitted single-regime model with Poisson observation noise on weekly deaths, and both models were refitted to each dataset with the same multi-start procedure as for the observed Vetlyanka data (single-regime model: $T_{\mathrm{perceive}}$ fixed at the value fitted by the double-regime model on the same dataset, $k=10$; double-regime model: $k=13$). $\Delta\mathrm{IC}=\mathrm{IC}_{\mathrm{double}}-\mathrm{IC}_{\mathrm{single}}$, so positive values favour the single-regime model. The fitted $x_1$ refers to the double-regime fit; the generating process has no decline onset. $^{\dagger}$At the upper bound of $x_1$ (20 weeks).}
+    \begin{tabular}{crrrrrr}
+        \toprule
+        \textbf{Rep.} & \textbf{SSE single} & \textbf{SSE double} & $\boldsymbol{\Delta}$\textbf{AIC} & $\boldsymbol{\Delta}$\textbf{AICc} & $\boldsymbol{\Delta}$\textbf{BIC} & \textbf{Fitted $x_1$ (wk)} \\
+        \midrule
+        1 & 33.57 & 88.24 & 27.26 & 52.76 & 30.53 & 20.00$^{\dagger}$ \\
+        2 & 56.16 & 72.47 & 11.61 & 37.11 & 14.88 & 20.00$^{\dagger}$ \\
+        3 & 585.93 & 279.41 & -10.29 & 15.21 & -7.02 & 20.00$^{\dagger}$ \\
+        4 & 43.50 & 100.81 & 24.49 & 49.99 & 27.77 & 20.00$^{\dagger}$ \\
+        5 & 89.22 & 139.72 & 15.87 & 41.37 & 19.14 & 20.00$^{\dagger}$ \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:negative_control_recovery}
+\end{table}

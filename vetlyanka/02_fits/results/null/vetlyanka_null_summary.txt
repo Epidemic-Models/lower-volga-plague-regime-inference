@@ -1,0 +1,11 @@
+SSE=64917.884044
+k=9
+AIC=193.7764
+AICc=208.7764
+BIC=203.5958
+sensitivity_fixed=0.0
+alignment=t=1..22
+samples=parameter_samples_400000.csv
+TOP_K=20
+starts reaching best SSE: 17/20
+within 5% of a bound: ['b2', 'x0', 'c', 'gamma1', 'gamma2', 'mu1', 'mu2', 'dispose_rate']

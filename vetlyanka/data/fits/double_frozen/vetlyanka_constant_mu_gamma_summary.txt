@@ -1,0 +1,24 @@
+Vetlyanka constant-gamma/constant-mu full fit (multi-start)
+==================================================
+
+Number of observations: 22
+Number of fitted parameters: 11
+Best LHS starting SSE (of top 10 polished): 1485.85864429
+Polished SSE: 411.977782726
+AIC: 86.4583933206
+AICc: 112.858393321
+Optimizer success: True
+Optimizer status: 0
+Optimizer message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+Optimizer iterations: 258
+Objective evaluations: 6396
+
+Constant-rate constraints:
+gamma1 = gamma2 = gamma_const
+mu1 = mu2 = mu_const
+
+See vetlyanka_constant_mu_gamma_multistart_log.csv for all 10 starts compared.
+
+Parameters within 5% of a bound:
+  sensitivity: value=0.0115875056741, position=3.38%
+  dispose_rate: value=7.49999998268, position=100.00%

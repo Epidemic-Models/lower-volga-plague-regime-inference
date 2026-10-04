@@ -1,0 +1,13 @@
+SSE=376.026384
+k=11
+AIC=84.4496
+AICc=110.8496
+BIC=96.4510
+alignment=t=1..22
+samples=parameter_samples_400000.csv
+TOP_K=20
+SPAN_STARTS=True
+x1-x0=2.2059 (min gap 2.0)
+stage-1 LHS starts reaching stage-1 best: 1/20
+stage-1 best SSE: 376.026384; final best from lhs_17
+within 5% of a bound: ['c', 'c1', 'gamma_const', 'sensitivity', 'dispose_rate']

@@ -1,0 +1,35 @@
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Model comparison summary, cumulative basis. SSE: sum of squared errors. $k$: number of free parameters. Lower AIC/AICc/BIC indicates a better balance of fit against complexity.}
+    \begin{tabular}{lccccc}
+        \toprule
+        \textbf{Model} & \textbf{$k$} & \textbf{SSE} & \textbf{AIC} & \textbf{AICc} & \textbf{BIC} \\
+        \midrule
+        Null & 9 & 64917.9 & 193.78 & 208.78 & 203.60 \\
+        Single & 10 & 993.4 & 103.82 & 123.82 & 114.73 \\
+        Double & 13 & 348.8 & 86.80 & 132.30 & 100.98 \\
+        Double, constant $\gamma,\mu$ & 11 & 376.0 & 84.45 & 110.85 & 96.45 \\
+        Single, constant $\gamma,\mu$ & 8 & 905.5 & 97.78 & 108.86 & 106.51 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:model_comparison_summary_cum}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Model comparison summary, incremental (weekly) basis. SSE: sum of squared errors. $k$: number of free parameters. Lower AIC/AICc/BIC indicates a better balance of fit against complexity.}
+    \begin{tabular}{lccccc}
+        \toprule
+        \textbf{Model} & \textbf{$k$} & \textbf{SSE} & \textbf{AIC} & \textbf{AICc} & \textbf{BIC} \\
+        \midrule
+        Null & 9 & 27333.8 & 174.75 & 189.75 & 184.57 \\
+        Single & 10 & 1401.6 & 111.40 & 131.40 & 122.31 \\
+        Double & 13 & 561.9 & 97.29 & 142.79 & 111.47 \\
+        Double, constant $\gamma,\mu$ & 11 & 504.0 & 90.89 & 117.29 & 102.89 \\
+        Single, constant $\gamma,\mu$ & 8 & 1349.6 & 106.56 & 117.64 & 115.29 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:model_comparison_summary_incr}
+\end{table}

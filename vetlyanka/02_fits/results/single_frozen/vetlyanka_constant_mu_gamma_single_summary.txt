@@ -1,0 +1,11 @@
+SSE=905.515850
+k=8
+AIC=97.7842
+AICc=108.8611
+BIC=106.5125
+T_perceive_fixed=3.152079 (from 02_fits/results/double_frozen/vetlyanka_constant_mu_gamma_polished_fit.csv)
+alignment=t=1..22
+samples=parameter_samples_400000.csv
+TOP_K=20
+starts reaching best SSE: 4/20
+within 5% of a bound: ['b1', 'b2', 'c', 'gamma_const', 'mu_const', 'dispose_rate']

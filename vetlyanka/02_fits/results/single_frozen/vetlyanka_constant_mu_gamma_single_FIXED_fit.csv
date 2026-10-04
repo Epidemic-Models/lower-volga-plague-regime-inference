@@ -1,0 +1,10 @@
+Parameter,Bound_lo,Bound_hi,Best_Fit,Status
+b1,0.001,0.2,0.2,fitted
+b2,5.0,25.0,5.1634841762210115,fitted
+x0,5.0,20.0,7.009698183213213,fitted
+c,0.02,2.0,2.0,fitted
+gamma_const,0.35,1.4,1.4,fitted
+mu_const,1.167,14.0,1.167,fitted
+sensitivity,0.005,0.2,0.01753601892479711,fitted
+dispose_rate,2.0,7.5,7.5,fitted
+T_perceive,,,3.152078707236505,fixed

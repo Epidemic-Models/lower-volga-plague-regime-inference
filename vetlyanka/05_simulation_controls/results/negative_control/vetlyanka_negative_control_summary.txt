@@ -1,0 +1,6 @@
+Replicates: 5  (truth: single-sigmoid, NO second regime)
+AIC favours single in 4/5  (delta AIC single-double: -27.26, -11.61, +10.29, -24.49, -15.87)
+AICc favours single in 5/5
+BIC favours single in 4/5
+Raw SSE: double <= single in 1/5 (within the real bounds x1 <= 20 double must decline inside the window, so it cannot fully mimic a single-regime curve and may fit worse even with a thorough search)
+double x1: 20.00, 20.00, 20.00, 20.00, 20.00  (mean 20.00, sd 0.00; at upper bound in 5/5)

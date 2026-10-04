@@ -1,0 +1,11 @@
+SSE=993.408888
+k=10
+AIC=103.8222
+AICc=123.8222
+BIC=114.7326
+T_perceive_fixed=3.397332 (from 02_fits/results/double/vetlyanka_polished_fit.csv)
+alignment=t=1..22
+samples=parameter_samples_400000.csv
+TOP_K=20
+starts reaching best SSE: 16/20
+within 5% of a bound: ['b1', 'b2', 'c', 'gamma1', 'gamma2', 'mu1', 'mu2', 'dispose_rate']

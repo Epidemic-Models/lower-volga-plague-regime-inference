@@ -1,0 +1,23 @@
+{
+  "num_main_samples": 400000,
+  "num_widened_samples": 100000,
+  "lhs_seed": 42,
+  "legacy_alignment": false,
+  "x0_x1_min_gap": 2.0,
+  "widened_x1_upper": 40,
+  "T_perceive_fixed_single": 3.152078707236505,
+  "T_perceive_source": "02_fits/results/double_frozen/vetlyanka_constant_mu_gamma_polished_fit.csv",
+  "reduced_names": [
+    "b1",
+    "b2",
+    "x0",
+    "x1",
+    "c",
+    "c1",
+    "gamma_const",
+    "mu_const",
+    "T_perceive",
+    "sensitivity",
+    "dispose_rate"
+  ]
+}

@@ -1,0 +1,7 @@
+Replicates: 5
+AIC favours double in 5/5 (range 14.34 to 52.62)
+BIC favours double in 5/5; AICc favours double in 1/5
+x1 recovery error (%): +3.87, -0.53, +4.31, +0.47, +0.33 (max |error| 4.31%)
+Mean weekly deaths in weeks [20, 21, 22] -- double refit: 1.126, single refit: 7.189
+Single refit tail > double refit tail in 5/5 replicates
+Median |recovery error| per parameter (%): b1=27.3, b2=13.5, x0=10.1, x1=0.5, c=22.7, c1=0.0, gamma1=0.0, gamma2=18.5, mu1=20.0, mu2=0.0, T_perceive=21.2, sensitivity=16.6, dispose_rate=0.0

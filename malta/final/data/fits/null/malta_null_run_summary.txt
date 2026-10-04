@@ -1,0 +1,6 @@
+Malta null model run summary
+N=100000: SSE=37529.353610
+N=300000: SSE=36649.686163
+SSE change between sample sizes: 2.4002%
+Consistent: False
+Pinned parameters (N=300000): ['b2(lower)', 'x0(lower)', 'gamma1(lower)', 'mu1(upper)', 'mu2(upper)']
